@@ -159,38 +159,3 @@ The system uses GPT-3.5-turbo by default. You can modify the model in `agents.py
 ```python
 self.llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.1)
 ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run tests to ensure functionality
-5. Submit a pull request
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## ⚠️ Disclaimer
-
-This system provides AI-generated financial analysis and recommendations for educational and informational purposes only. It should not be considered as professional financial advice. Always consult with qualified financial professionals before making investment decisions.
-
-## 🔗 Dependencies
-
-- **CrewAI**: Multi-agent AI framework
-- **LangChain**: LLM integration and chaining
-- **OpenAI**: GPT model access
-- **Python-dotenv**: Environment variable management
-
-## 📞 Support
-
-For issues or questions:
-1. Check the demo output for system status
-2. Verify your OpenAI API key is correctly configured
-3. Ensure all dependencies are installed
-4. Review error messages for troubleshooting guidance
-
----
-
-**Ready to revolutionize your financial analysis with AI! 🚀**
